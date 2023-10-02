@@ -8,3 +8,5 @@ a { color:#A4A400 }
 
 p, blockquote { color:#404040;
 font-size: 11pt;}
+
+blockquote { background-color: rgb(255, 255, 183); }
