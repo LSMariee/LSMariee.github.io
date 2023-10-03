@@ -6,7 +6,8 @@ h1, h3 { color:#A4A400;
 
 a { color:#A4A400 }
 
-p, blockquote { color:#404040;
-font-size: 11pt;}
+body { color:#404040;
+font-size: 11pt;
+font-family: Georgia, 'Times New Roman', Times, serif;}
 
 blockquote { background-color: rgb(255, 255, 183); }
