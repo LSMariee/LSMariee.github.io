@@ -15,4 +15,23 @@ blockquote { background-color: rgb(255, 255, 183); }
 
 ul { list-style-image: url(pie_bullet.png); }
 
+.tooltip-text { 
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    width: 100px;
+    color: white;
+    background-color: #192733;
+    padding: 5px;
+}
+
+.hover-text:hover .tooltip-text {
+    visibility: visible;
+}
+
+.bottom {
+    top:25px;
+    left: -50%;
+}
+
 #copyright { font-family: monospace; }
