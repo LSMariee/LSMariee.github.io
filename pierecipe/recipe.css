@@ -2,7 +2,8 @@ h1, h3 { color:#A4A400;
     background:#F0F0F0; 
     font-size: 22pt;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.25em; }
 
 a { color:#A4A400 }
 
