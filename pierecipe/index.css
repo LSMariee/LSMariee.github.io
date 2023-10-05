@@ -4,13 +4,14 @@ h1, h2, h3 { color:#A4A400;
     font-weight: bold;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 0.25em;
-    line-height: 2; }
+ }
 
 a { color:#A4A400 }
 
-body { color:#404040;
+body, h4 { color:#404040;
 font-size: 11pt;
-font-family: Georgia, 'Times New Roman', Times, serif;}
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 2; }
 
 blockquote { background-color: rgb(255, 255, 183); }
 
