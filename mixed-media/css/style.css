@@ -1,0 +1,13 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th { background: rgb(166, 146, 185); }
+.rheader { background: rgb(230, 202, 243); }
+
+body {
+    background: linear-gradient(#fff), #a68eb9);
+    background-size: 100% 350%;
+}
