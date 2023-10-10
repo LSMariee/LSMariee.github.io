@@ -8,6 +8,6 @@ th { background: rgb(166, 146, 185); }
 .rheader { background: rgb(230, 202, 243); }
 
 body {
-    background: linear-gradient(#fff), #a68eb9);
+    background: linear-gradient(#fff), #a68eb9;
     background-size: 100% 350%;
 }
