@@ -30,12 +30,4 @@ h1 { text-align: center;
 
 li, a { color: #545983;}
 
-.float-r {
-    text-align: right;}
-
-.float-l { 
-    text-align: left;}
-
-.float-c {
-    text-align: center;
-}
+.right { float: right;}
