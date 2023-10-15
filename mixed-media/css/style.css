@@ -27,3 +27,16 @@ body {
 h1 { text-align: center;}
 
 li, a { color: #973F5B;}
+
+.float-r {
+    float: right;
+    text-align: center; }
+
+.float-l { 
+    float: left;
+    text-align: center;
+}
+
+.float-c {
+    text-align: center;
+}
