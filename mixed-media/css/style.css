@@ -11,8 +11,7 @@ th { background: #E4D8BE; }
 
 
 body {
-    background: linear-gradient(#fff), #D29F93;
-    background-size: 100% 350%;
+    background-image: radial-gradient(#fff, #D29F93)
 }
 
 h1 { text-align: center;}
