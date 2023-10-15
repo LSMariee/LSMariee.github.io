@@ -17,7 +17,7 @@ table, td, th {
 th { background-color: #E4D8BE; }
 
 tbody thead, caption, p {
-    font-size: small;
+    font-size: medium;
 }
 
 body {
@@ -25,18 +25,17 @@ body {
 }
 
 h1 { text-align: center;
-    color:#973F5B}
+    color:#973F5B;
+    font-size: larger;
+}
 
 li, a { color: #973F5B;}
 
 .float-r {
-    float: right;
-    text-align: center; }
+    float: right; }
 
 .float-l { 
-    float: left;
-    text-align: center;
-}
+    float: left;}
 
 .float-c {
     text-align: center;
