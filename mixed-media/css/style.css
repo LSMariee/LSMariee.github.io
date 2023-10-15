@@ -1,6 +1,6 @@
 * { 
     font-family: 'Courier New', Courier, monospace;
-    font-size: small; color: #100A09;
+    
     
 }
 
@@ -17,7 +17,7 @@ table, td, th {
 th { background-color: #E4D8BE; }
 
 tbody thead, caption, p {
-    font-size: medium;
+    font-size: small; color: #100A09;
 }
 
 body {
@@ -26,7 +26,6 @@ body {
 
 h1 { text-align: center;
     color:#973F5B;
-    font-size: larger;
 }
 
 li, a { color: #973F5B;}
