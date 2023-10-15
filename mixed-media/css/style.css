@@ -31,10 +31,10 @@ h1 { text-align: center;
 li, a { color: #973F5B;}
 
 .float-r {
-    float: right; }
+    text-align: right;}
 
 .float-l { 
-    float: left;}
+    text-align: left;}
 
 .float-c {
     text-align: center;
