@@ -1,6 +1,7 @@
 * { 
     font-family: 'Courier New', Courier, monospace;
-    background-image: radial-gradient(#fff, #D29F93);
+    background-image: radial-gradient(#D29F93, #fff);
+    background-size: 100% 350%;
 }
 
 table, td, th {
@@ -15,10 +16,8 @@ table, td, th {
 th { background-color: #E4D8BE; }
 
 
-body {
-    background-image: radial-gradient(#fff, #D29F93)
-}
+
 
 h1 { text-align: center;}
 
-ul { color: #973F5B;}
+li { color: #973F5B;}
