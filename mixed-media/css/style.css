@@ -2,6 +2,8 @@ table, td, th {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th { background: rgb(166, 146, 185); }
