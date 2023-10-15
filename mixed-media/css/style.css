@@ -14,14 +14,14 @@ table, td, th {
     
 }
 
-th { background-color: #E4D8BE; }
+th { background-color: #E3D3CE; }
 
 tbody thead, caption, p {
     font-size: medium; color: #100A09;
 }
 
 body {
-    background-image: radial-gradient(#E3D3CE, #F2EAE8);
+    background-image: radial-gradient(#C19C90, #F2EAE8);
 }
 
 h1 { text-align: center;
