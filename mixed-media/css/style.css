@@ -5,7 +5,7 @@
 }
 
 table, td, th {
-    border: 1px solid #100A09;
+    border: 1px solid #181C12;
     border-collapse: collapse;
     border-radius: 0%;
     padding: 10px;
@@ -14,21 +14,21 @@ table, td, th {
     
 }
 
-th { background-color: #E3D3CE; }
+th { background-color: #9989B3; }
 
 tbody thead, caption, p {
-    font-size: medium; color: #100A09;
+    font-size: medium; color: #181C12;
 }
 
 body {
-    background-image: radial-gradient(#C19C90, #F2EAE8);
+    background-image: radial-gradient(#D9C7DB, #F3F5EF);
 }
 
 h1 { text-align: center;
-    color:#973F5B;
+    color:#9989B3;
 }
 
-li, a { color: #973F5B;}
+li, a { color: #545983;}
 
 .float-r {
     text-align: right;}
