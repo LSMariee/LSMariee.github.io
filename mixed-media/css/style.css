@@ -5,7 +5,7 @@
 }
 
 table, td, th {
-    border: 1px #100A09;
+    border: 1px solid #100A09;
     border-collapse: collapse;
     padding: 10px;
     margin-left: auto;
@@ -15,6 +15,9 @@ table, td, th {
 
 th { background-color: #E4D8BE; }
 
+tbody thead, caption, p {
+    font-size: small;
+}
 
 body {
     background-image: radial-gradient(#E3D3CE, #F2EAE8);
