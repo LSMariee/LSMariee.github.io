@@ -14,18 +14,18 @@ table, td, th {
     
 }
 
-th { background-color: #9989B3; }
+th { background-color: #D9C7DB; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
 }
 
 body {
-    background-image: radial-gradient(#D9C7DB, #F3F5EF);
+    background-image: radial-gradient(#9989B3, #F3F5EF);
 }
 
 h1 { text-align: center;
-    color:#9989B3;
+    color:#545983;
 }
 
 li, a { color: #545983;}
