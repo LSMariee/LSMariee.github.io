@@ -1,11 +1,11 @@
 * { 
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: small; color: #100A09;
     
 }
 
 table, td, th {
-    border: 1px solid black;
+    border: 1px #100A09;
     border-collapse: collapse;
     padding: 10px;
     margin-left: auto;
@@ -17,7 +17,7 @@ th { background-color: #E4D8BE; }
 
 
 body {
-    background-image: radial-gradient(#D29F93, #fff);
+    background-image: radial-gradient(#E3D3CE, #F2EAE8);
 }
 
 h1 { text-align: center;}
