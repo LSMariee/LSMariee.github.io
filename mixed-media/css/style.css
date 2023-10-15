@@ -24,7 +24,8 @@ body {
     background-image: radial-gradient(#E3D3CE, #F2EAE8);
 }
 
-h1 { text-align: center;}
+h1 { text-align: center;
+    color:#973F5B}
 
 li, a { color: #973F5B;}
 
