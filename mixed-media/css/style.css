@@ -31,5 +31,6 @@ h1 { text-align: center;
 
 li, a { color: #A0653B;}
 
-.caption { display: inline;}
+.caption { display: inline;
+            padding: 20px;}
 
