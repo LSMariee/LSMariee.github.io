@@ -27,6 +27,7 @@ body {
 
 h1 { text-align: center;
     color:#A0653B;
+    letter-spacing: 0.1em;
 }
 
 li, a { color: #A0653B;}
