@@ -14,7 +14,7 @@ table, td, th {
     
 }
 
-th { background-color: #559D4D; }
+th { background-color: #6a9365; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
@@ -22,15 +22,15 @@ tbody thead, caption, p {
 }
 
 body {
-    background-image: radial-gradient(#E8C0C3, #F3ECEC);
+    background-image: radial-gradient(#9dcd98, #F3ECEC);
 }
 
 h1 { text-align: center;
-    color:#38714E;
+    color:#3f664e;
     letter-spacing: 0.1em;
 }
 
-li, a { color: #38714E;}
+li, a { color: #3f664e;}
 
 .caption { display: inline;
             padding: 152px;}
