@@ -18,6 +18,7 @@ th { background-color: #9989B3; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
+    font-weight:300;
 }
 
 body {
