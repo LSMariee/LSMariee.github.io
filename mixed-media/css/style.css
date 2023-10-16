@@ -14,11 +14,11 @@ table, td, th {
     
 }
 
-th { background-color: #387199; }
+th { background-color: #5589ad; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
-    font-weight:500;
+    font-weight:400;
 }
 
 body {
