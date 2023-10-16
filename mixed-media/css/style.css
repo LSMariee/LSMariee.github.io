@@ -14,20 +14,20 @@ table, td, th {
     
 }
 
-th { background-color: #9989B3; }
+th { background-color: #387199; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
-    font-weight:800;
+    font-weight:500;
 }
 
 body {
-    background-image: radial-gradient(#9989B3, #F3F5EF);
+    background-image: radial-gradient(#E8C0C3, #FFFFFF);
 }
 
 h1 { text-align: center;
-    color:#545983;
+    color:#A0653B;
 }
 
-li, a { color: #545983;}
+li, a { color: #A0653B;}
 
