@@ -14,7 +14,7 @@ table, td, th {
     
 }
 
-th { background-color: #56898A; }
+th { background-color: #559D4D; }
 
 tbody thead, caption, p {
     font-size: medium; color: #181C12;
@@ -26,11 +26,11 @@ body {
 }
 
 h1 { text-align: center;
-    color:#314E4E;
+    color:#38714E;
     letter-spacing: 0.1em;
 }
 
-li, a { color: #314E4E;}
+li, a { color: #38714E;}
 
 .caption { display: inline;
             padding: 152px;}
