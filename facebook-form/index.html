@@ -8,24 +8,25 @@
 </head>
 <body>
     <h2>Sign Up</h2>
-    <p>It's free and always will be.</p>
+    <h4>It's free and always will be.</h4>
 
     <form action="#" method="post" id="registration">
         <div id="fdiv">
-            <label for="firstname"><span class="rqd"></span></label>
-            <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
-
-            <label for="lastname"><span class="rqd"></span></label>
-            <input type="lastname" name="lastname" id="lastname" placeholder="Last Name" required> <br><br>
-
-            <label for="email"><span class="rqd"></span></label>
-            <input type="text" name="email" id="email" placeholder="Your Email" required> <br><br>
-
-            <label for="email2"><span class="rqd"></span></label>
-            <input type="text" name="email2" id="email2" placeholder="Re-enter Email" required> <br><br>
-
-            <label for="pw"><span class="rqd"></span></label>
-            <input type="password" name="pw" id="pw" placeholder="New Password" required> <br><br>
+            <div class="text">
+                <label for="firstname"><span class="rqd"></span></label>
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+    
+                <label for="lastname"><span class="rqd"></span></label>
+                <input type="lastname" name="lastname" id="lastname" placeholder="Last Name" required> <br><br>
+    
+                <label for="email"><span class="rqd"></span></label>
+                <input type="text" name="email" id="email" placeholder="Your Email" required> <br><br>
+    
+                <label for="email2"><span class="rqd"></span></label>
+                <input type="text" name="email2" id="email2" placeholder="Re-enter Email" required> <br><br>
+    
+                <label for="pw"><span class="rqd"></span></label>
+                <input type="password" name="pw" id="pw" placeholder="New Password" required> <br><br></div>
 
             <label for="birthday">Birthday <span class="rqd"></span></label> <br>
             <select name="month" id="month" required>
@@ -203,14 +204,14 @@
             <p><a href="#">Why do I need to provide my birthday?</a></p>
             
 
-            <input type="radio" name="f" id="f" value="female"/>
-            <label for="female" class="f">Female</label>
-            <input type="radio" name="m" id="m" value="male"/>
-            <label for="male" class="m">Male</label> <br>
+            <input type="radio" name="flwup" id="flwupy" value="yes"/>
+            <label for="female" class="flwlbl">Female</label>
+            <input type="radio" name="flwup" id="flwupn" value="no"/>
+            <label for="male" class="flwlbl">Male</label> <br>
 
-            <p>By clicking Sign Up, you agree to our <a href="#">Terms</a> 
+            <div id="terms"><p>By clicking Sign Up, you agree to our <a href="#">Terms</a> 
                 and that you have read our <a href="#">Data Use Policy</a>, including
-                our <a href="#">Cookie Use</a>.</p>
+                our <a href="#">Cookie Use</a>.</p></div>
             
             <input type="submit" value="Sign Up" id="sbutton"/>
 

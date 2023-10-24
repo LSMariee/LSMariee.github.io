@@ -1,1 +1,12 @@
+body { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #edf0f5;}
 form { text-align: center;}
+p { font-size: 70%;}
+
+h4 { font-weight: lighter; color: rgb(87, 87, 87);}
+
+#terms { color: rgb(87, 87, 87);}
+
+#firstname, #lastname { width: 30%;}
+
+#email { width: 62.5%;}
+
