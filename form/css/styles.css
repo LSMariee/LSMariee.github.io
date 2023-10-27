@@ -14,10 +14,12 @@ h4 { font-weight: lighter; color: rgb(87, 87, 87);}
 #sbutton {
     color:white;
     background: #659d50;
-    font-size: 24x;
+    font-size: 30x;
     padding: 15px;
     border: 2px white;
-    border-radius: 10px;
+    border-radius: 6px;
+    float: left;
+    width: 20%;
 }
 
 
