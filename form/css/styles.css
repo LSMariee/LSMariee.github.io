@@ -1,7 +1,7 @@
 body { font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #edf0f5;}
 form { text-align: center;
     border-radius: 0%;
-    padding: 10px;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -10,6 +10,15 @@ p { font-size: 70%; }
 h4 { font-weight: lighter; color: rgb(87, 87, 87);}
 
 #terms { color: rgb(87, 87, 87);}
+
+#sbutton {
+    color:white;
+    background: #659d50;
+    font-size: 24x;
+    padding: 15px;
+    border: 2px white;
+    border-radius: 10px;
+}
 
 
 
