@@ -10,7 +10,7 @@ input {
     border-radius: 5px;
 }
 
-p, a{ font-size: 30%; 
+p, a{ font-size: 50%; 
     display: inline-block;
 }
 
@@ -21,7 +21,7 @@ h4 { font-weight: lighter; color: rgb(87, 87, 87);}
 #sbutton {
     color:white;
     background: #659d50;
-    font-size: 30px;
+    font-size: 15px;
     padding: 15px;
     border: 2px white;
     border-radius: 6px;
