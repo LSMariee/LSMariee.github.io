@@ -8,6 +8,7 @@ input {
     margin-right: auto; 
     border-style: groove;
     border-radius: 5px;
+    border-width: 50%;
 }
 
 p, a{ font-size:10px; 
