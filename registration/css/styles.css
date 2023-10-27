@@ -7,6 +7,7 @@ input {
     margin-left: auto;
     margin-right: auto; 
     border-style: groove;
+    border-radius: 5px;
 }
 
 p, a{ font-size: 70%; 
