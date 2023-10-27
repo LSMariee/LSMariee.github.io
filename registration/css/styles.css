@@ -9,6 +9,7 @@ input {
     border-style: groove;
     border-radius: 5px;
     border-width: 50%;
+    border-color: #898989;
 }
 
 p, a{ font-size:10px; 
