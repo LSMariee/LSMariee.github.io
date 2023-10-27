@@ -10,7 +10,7 @@ input {
     border-radius: 5px;
 }
 
-p, a{ font-size: 20px; 
+p, a{ font-size: 30%; 
     display: inline-block;
 }
 
