@@ -38,6 +38,8 @@ h4 { font-weight: lighter; color: rgb(87, 87, 87);}
 
 #email, #email2, #pw { width: 550px;}
 
+#birthday { font-size: 16px; }
+
 #month, #day, #year { font-size: 16px; 
 padding: 5px;
 background-image: linear-gradient(#bfbfbf, #d7d7d7);
