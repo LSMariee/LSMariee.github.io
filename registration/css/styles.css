@@ -9,6 +9,7 @@ input {
     border-radius: 5px;
     border-width: 50%;
     border-color: #9e9e9e;
+    position: relative;
 }
 
 p, a{ font-size:10px; 
