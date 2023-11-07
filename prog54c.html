@@ -13,7 +13,13 @@
         var rad = document.getElementById('rad').value;
         rad = Number(rad);
         var pi = 3.14159
+        pi = Number(pi);
+        area = (rad ** 2) * pi
+        area = String(area);
+        circ = pi * 2 * rad
+        circ = String(circ);
 
+        document.writeln('Area: ' + area + ' Circumference: ' + circ);
     ">Calculate Area & Circumference</button>
 </body>
 </html>
