@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prog93a</title>
+</head>
+<body>
+    <input type="number" id="kilo" name="kilo">
+    <button onclick="calc();">Calculate</button>
+    <p id="out"></p>
+
+    <script>
+        function calc() {
+            var kilo = document.getElementById("kilo").value;
+            kilo = Number(kilo);
+
+           var base = kilo * 0.0475
+           base = base.toFixed(2);
+
+            var out = document.getElementById("out");
+            out.innerHTML = proot + "     " + nroot;
+        }
+    </script>
+</body>
+</html>
