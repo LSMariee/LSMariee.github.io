@@ -17,9 +17,20 @@
 
            var base = kilo * 0.0475
            base = base.toFixed(2);
+           var surcharge = base * 0.1
+           surcharge = surcharge.toFixed(2);
+           var utility = base * 0.03
+           utility = utility.toFixed(2);
+           var bill = base + surcharge + utility;
+           bill = bill.toFixed(2);
+           var late = bill * .04
+           late = late.toFixed(2);
+           var penalty = late + bill;
+           penalty = penalty.toFixed(2);
+
 
             var out = document.getElementById("out");
-            out.innerHTML = proot + "     " + nroot;
+            out.innerHTML = "Base Rate: " + base;
         }
     </script>
 </body>
