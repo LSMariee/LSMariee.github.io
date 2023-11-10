@@ -6,31 +6,31 @@
     <title>Prog93a</title>
 </head>
 <body>
-    <input type="number" id="kilo" name="kilo">
+    <input type="number" id="kilowatts" name="kilowatts">
     <button onclick="calc();">Calculate</button>
     <p id="out"></p>
 
     <script>
         function calc() {
-            var kilo = document.getElementById("kilo").value;
-            kilo = Number(kilo);
+            var kilowatts = document.getElementById("kilowatts").value;
+            kilowatts = Number(kilowatts);
 
-           var base = kilo * 0.0475
-           base = base.toFixed(2);
-           var surcharge = base * 0.1
-           surcharge = surcharge.toFixed(2);
-           var utility = base * 0.03
-           utility = utility.toFixed(2);
-           var bill = base + surcharge + utility;
-           bill = bill.toFixed(2);
-           var late = bill * .04
-           late = late.toFixed(2);
-           var penalty = late + bill;
-           penalty = penalty.toFixed(2);
+            var base = kilowatts * 0.0475
+            
+            var surcharge = base * 0.1
+            
+            var utility = base * 0.03
+            
+            var bill = base + surcharge + utility;
+            
+            var late = bill * .04
+            
+            var penalty = late + bill;
+            
 
 
             var out = document.getElementById("out");
-            out.innerHTML = "Base Rate: " + base;
+            out.innerHTML = "Base Rate: " + base.toFixed(2) + "<br>Surcharge: " + surcharge.toFixed(2) + "<br>City Tax: " + utility.toFixed(2) + "<br>Pay this amount: " + bill.toFixed(2) + "<br>After May 20th pay: " + penalty.toFixed(2);
         }
     </script>
 </body>
