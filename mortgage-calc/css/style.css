@@ -1,7 +1,9 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 50%;
     text-align: center;
+}
+
+body {
     background-color: #E2E0F0;
 }
 
@@ -13,8 +15,8 @@ input {
     border-style: solid;
     border-radius: 5px;
     border-width: 50%;
-    border-color: #D5D2E9;
-    position: flex;
+    border-color: #504794;
+    position: absolute;
     font-size: 18px;
 }
 
