@@ -1,6 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
+    font-size: 50%;
     text-align: center;
+    background-color: #E2E0F0;
 }
 
 input { 
@@ -11,7 +13,18 @@ input {
     border-style: solid;
     border-radius: 5px;
     border-width: 50%;
-    border-color: #9e9e9e;
+    border-color: #D5D2E9;
     position: flex;
     font-size: 18px;
+}
+
+button {
+    color:white;
+    background-image: linear-gradient(#5d54a4, #504794);
+    font-size: 20px;
+    padding: 15px;
+    border: 2px white;
+    border-radius: 6px;
+    width: 15%;
+    font-weight: bold;
 }
