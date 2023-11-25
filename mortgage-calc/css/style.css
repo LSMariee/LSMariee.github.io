@@ -1,6 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 body {
@@ -36,8 +38,4 @@ button {
     border-radius: 6px;
     width: 15%;
     font-weight: bold;
-}
-
-.out {
-    font-size: 120%;
 }
