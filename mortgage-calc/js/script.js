@@ -8,7 +8,7 @@ function calc() {
 
 
     var balance = principal * (1 + ratedec / 12) ** exponent - (mnthpay * ((1 + ratedec/12) ** exponent - 1)) / (ratedec / 12);
-    var msg = "Remaining Loan Balance: $" + balance.toFixed(2);
+    var msg = "<br>Remaining Loan Balance: $" + balance.toFixed(2);
     var out = document.getElementById("out");
     out.innerHTML = msg;
 

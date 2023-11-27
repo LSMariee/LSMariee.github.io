@@ -1,6 +1,8 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 body {
@@ -10,6 +12,8 @@ body {
 label {
     font-size: 120%;
     font-weight:500;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input { 
@@ -20,7 +24,7 @@ input {
     border-style: solid;
     border-radius: 5px;
     border-width: 50%;
-    border-color: #504794;
+    border-color: #686485;
     position:relative;
     font-size: 18px;
 }
