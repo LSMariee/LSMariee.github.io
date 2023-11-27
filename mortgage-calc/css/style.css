@@ -1,19 +1,17 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
+
 }
 
 body {
-    background-color: #E2E0F0;
+    background-image: radial-gradient(#BBA1BF, #EAE1E2);
+    margin-top: 50px;
 }
 
 label {
     font-size: 120%;
     font-weight:500;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 input { 
@@ -24,14 +22,14 @@ input {
     border-style: solid;
     border-radius: 5px;
     border-width: 50%;
-    border-color: #686485;
+    border-color: #64607e;
     position:relative;
     font-size: 18px;
 }
 
 button {
     color:white;
-    background-image: linear-gradient(#5d54a4, #504794);
+    background-image: linear-gradient(#a582aa, #926798);
     font-size: 100%;
     padding: 10px;
     border: 2px white;
