@@ -16,15 +16,10 @@
             kilowatts = Number(kilowatts);
 
             var base = kilowatts * 0.0475
-            
             var surcharge = base * 0.1
-            
             var utility = base * 0.03
-            
             var bill = base + surcharge + utility;
-            
             var late = bill * .04
-            
             var penalty = late + bill;
             
 

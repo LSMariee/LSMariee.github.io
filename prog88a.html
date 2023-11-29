@@ -23,7 +23,7 @@
             var diff = num1 - num2;
             var product = num1 * num2;
             var avg = (num1 + num2) / 2;
-            var abs = Math.abs(diff);
+            var abs = Math.abs(dif);
             var max = 0;
             var min = 0;
 
@@ -31,21 +31,22 @@
                 max = num1;
                 min = num2;
             }
+            
             if (num1 < num2) {
                 max = num2;
                 min = num1;
             }
 
             /* if (someCondition == true) { run some code } */
-            var p = document.getElementById("out");
-            p.innerHTML = "";
-            p.innerHTML += "Sum: " + sum + "<br>";
-            p.innerHTML += "Difference: " + diff + "<br>";
-            p.innerHTML += "Product: " + product + "<br>";
-            p.innerHTML += "Average: " + avg + "<br>";
-            p.innerHTML += "Distance: " + abs + "<br>";
-            p.innerHTML += "Max: " + max + "<br>";
-            p.innerHTML += "Min: " + min + "<br>";
+            var out = document.getElementById("out");
+            out.innerHTML = "";
+            out.innerHTML += "Sum: " + sum + "<br>";
+            out.innerHTML += "Difference: " + diff + "<br>";
+            out.innerHTML += "Product: " + product + "<br>";
+            out.innerHTML += "Average: " + avg + "<br>";
+            out.innerHTML += "Distance: " + abs + "<br>";
+            out.innerHTML += "Max: " + max + "<br>";
+            out.innerHTML += "Min: " + min + "<br>";
         }
     </script>
 </body>

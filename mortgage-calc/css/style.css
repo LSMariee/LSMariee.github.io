@@ -6,6 +6,8 @@
 
 body {
     background-image: radial-gradient(#BBA1BF, #EAE1E2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin-top: 50px;
 }
 
