@@ -9,7 +9,12 @@
     <p id="out"></p>
     <script>
         var msg = "Hours &emsp; Pay"
-        for (lcv = 1; lcv = 40;);
+        for (lcv = 1; lcv < 41; lcv++) {
+            var hours = lcv;
+            var pay = hours * 4;
+            msg += lcv + "&emsp;" + pay;
+        }
+        document.getElementById("out").innerText = msg;
     </script>
 </body>
 </html>
