@@ -5,6 +5,12 @@
 h1 { text-align: center;
     letter-spacing: 0.05em;
     color: #F3ECF3;
+    font-size: 270%;
+}
+
+h5 {
+    background: #C0A5AB;
+    padding: 12px;
 }
 
 #interests {
@@ -13,9 +19,22 @@ h1 { text-align: center;
     padding: 12px;
     margin-left: 40px;
     margin-right: 40px;
+    font-size: 120%;
 }
 
-#links {
-    flex-direction: row;
-    justify-content: space-between;
+h4 {
+    display:inline-block;
+    padding: 20px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 130%;
 }
+
+.flex {
+    display: flex;
+}
+
+.flex > h4 { flex: 1;}
+
+a { color: #AB5869}
