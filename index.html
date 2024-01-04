@@ -16,7 +16,7 @@
         <h4><a href="index.html">Home</a></h4><h4><a href="about.html">About</a></h4><h4><a href="projects.html">Portfolio</a></h4>
     </div>
     
-    <p id="interests">Hi, I'm Lidia! I am currently an 18 year old senior at Craig High School. Some of my hobbis include drawing, jewelry making, 
+    <p class="background">Hi, I'm Lidia! I am currently an 18 year old senior at Craig High School. Some of my hobbis include drawing, jewelry making, 
         playing the violin, and I have very recently gotten into photography.My plans for after high school are to attend U.W. Whitewater 
         and major in psychology. As of right now, I am hoping to become a school counselor or school pyschologist.
         <br><br>
@@ -28,29 +28,29 @@
 
     <br><br>
 
+    <h3>Contact Me!</h3>
+    <p>Want to discuss projects or chat? Contact me through the platforms below:
+        <br><br>
+        Instagram: <a href="placeholder">@lidia</a>
+        <br><br>
+        Phone: <a href="placeholder">(xxx)xxx-xxxx</a>
+    </p>
+
     <form action="#" method="post" id="contactform"
-            style="text-align:center;" onsubmit="alert('Not implemented yet');">
+            onsubmit="alert('Not implemented yet');">
         <div id="fdiv">
             <label for="myname"><span class="rqd"></span></label> <br>
             <input type="text" name="myname" id="myname" placeholder="Your Name" required> <br><br>
 
-            <label for="myemail"><span class="rqd">*</span></label> <br>
-            <input type="email" name="myemail" id="myemail" required> <br><br>
+            <label for="myemail"><span class="rqd"></span></label> <br>
+            <input type="email" name="myemail" id="myemail" placeholder="Your Email" required> <br><br>
 
-            <label for="subject">Subject: <span class="rqd">*</span></label> <br>
-            <input type="text" name="subject" id="subject" placeholder="CS 101" required> <br><br>
-
-            <span class="rqd">*</span> <br>
-            <textarea name="tbody" id="tbody" placeholder="Enter message..."
+            <span class="rqd"></span> <br>
+            <textarea name="tbody" id="tbody" placeholder="Message"
                     required></textarea> <br><br>
 
-            <label for="priority">Priority: <span class="rqd">*</span></label> <br>
-            <select name="priority" id="priority" required>
-                <option disable selected value>-- Select an option --</option>
-                <option value="low">Low</option>
-                <option value="med">Medium</option>
-                <option value="high">High</option>
-                <option value="crit">Critical</option>
-            </select> <br><br>
+            <input type="contact" value="Contact Me" id="sbutton"/>
+        </div>
+    </form>
 </body>
 </html>
