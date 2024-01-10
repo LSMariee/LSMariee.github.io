@@ -65,7 +65,8 @@ tbody {
 }
 
 form {
-    margin-left: 100%;
+    margin-left: 120%;
+    margin-bottom: 20%;
 }
 
 input {
@@ -91,14 +92,23 @@ label {
 
 textarea {
     background-color: #C0A5AB;
+    
 }
 
 .contact {
     display: inline-block;
+
 }
 
-#contact {
-    margin-left: 40px;
+#contact1 {
+    margin-left: 30%;
+    color: #F3ECF3;
+    
+}
+
+#contact2 {
+    margin-left: 40%;
+    color: #F3ECF3;
     
 }
 
@@ -106,9 +116,9 @@ textarea {
     color:white;
     background-image: linear-gradient(#AB5869, rgb(136, 57, 73));
     font-size: 20px;
-    padding: 15px;
+    padding: 10px;
     border: 2px white;
     border-radius: 6px;
-    width: 15%;
+    width: 180px;
     font-weight: bold;
 }
