@@ -1,5 +1,6 @@
 * { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #191315;
+    box-sizing: border-box;
 }
 
 h1 { text-align: center;
@@ -121,4 +122,10 @@ textarea {
     border-radius: 6px;
     width: 180px;
     font-weight: bold;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
