@@ -97,12 +97,6 @@ input {
 
 ::placeholder { color: white;}
 
-
-textarea {
-    background-color: #C0A5AB;
-    
-}
-
 .contact {
     display: inline-block;
 
@@ -206,4 +200,32 @@ textarea {
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+.nav > li {
+    float: right;
+}
+
+.nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ADC9B2;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav > li, a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #ADC9B2;
+}
+
+.nav > li, a:hover {
+    background-color: #7b9980;
 }
