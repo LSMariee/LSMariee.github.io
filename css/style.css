@@ -15,13 +15,14 @@ header {
 }
 
 .background {
+    border-radius: 0%;
     color: #FCFBFB;
     background-color: #9C6881;
-    padding: 14px;
+    padding: 16px;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 140%;
-    border-radius: 30%;
+    border-radius: 5px;
 }
 
 .start {
@@ -82,7 +83,7 @@ form {
 
 input {
     padding: 9px;
-    border-style: solid;
+    border: none;
     border-radius: 20px;
     border-width: 50%;
     background-color: #ADC9B2;
@@ -122,11 +123,11 @@ textarea {
 #sbutton {
     color:white;
     background-image: linear-gradient(#85A9AF, #61878e);
-    font-size: 20px;
-    padding: 10px;
+    font-size: 30px;
+    padding: 12px;
     border: 2px white;
     border-radius: 6px;
-    width: 180px;
+    width: 200px;
     font-weight: bold;
 }
 
