@@ -230,5 +230,5 @@ li, a:hover {
 .socials { 
     color: #85A9AF;
     background-color: none;
-    display: none;
+    display: contents;
 }
