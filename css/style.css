@@ -17,10 +17,15 @@ header {
 .background {
     color: #FCFBFB;
     background-color: #9C6881;
-    padding: 12px;
+    padding: 14px;
     margin-left: 40px;
     margin-right: 40px;
     font-size: 120%;
+}
+
+.start {
+    display: inline-block;
+
 }
 
 h4 {
