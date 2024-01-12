@@ -45,6 +45,10 @@ h3 {
 
 .flex > h4 { flex: 1;}
 
+#contact {
+    color: #F3ECF3;
+}
+
 a { color: #AB5869}
 
 ul { color: #AB5869}
