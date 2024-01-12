@@ -1,22 +1,22 @@
 * { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #191315;
+    background-color: #FCFBFB;
     box-sizing: border-box;
 }
 
 h1 { text-align: center;
     letter-spacing: 0.05em;
-    color: #F3ECF3;
+    color: #110B0E;
     font-size: 270%;
 }
 
 header {
-    background: #C0A5AB;
+    background: #ADC9B2;
     padding: 12px;
 }
 
 .background {
-    color: #F3ECF3;
-    background-color: #673D46;
+    color: #FCFBFB;
+    background-color: #9C6881;
     padding: 12px;
     margin-left: 40px;
     margin-right: 40px;
@@ -33,7 +33,7 @@ h4 {
 }
 
 h3 {
-    color: #F3ECF3;
+    color: #110B0E;
     font-size: 130%;
     margin-left: 40px;
 }
@@ -46,12 +46,12 @@ h3 {
 .flex > h4 { flex: 1;}
 
 #contact {
-    color: #F3ECF3;
+    color: #110B0E;
 }
 
-a { color: #AB5869}
+a { color: #85A9AF}
 
-ul { color: #AB5869}
+ul { color: #85A9AF}
 
 
 table, td, th {
@@ -107,19 +107,19 @@ textarea {
 
 #contact1 {
     margin-left: 30%;
-    color: #F3ECF3;
+    color: #110B0E;
     
 }
 
 #contact2 {
     margin-left: 40%;
-    color: #F3ECF3;
+    color: #110B0E;
     
 }
 
 #sbutton {
     color:white;
-    background-image: linear-gradient(#AB5869, rgb(136, 57, 73));
+    background-image: linear-gradient(#85A9AF, #61878e);
     font-size: 20px;
     padding: 10px;
     border: 2px white;
