@@ -81,8 +81,6 @@ input {
     border-radius: 5px;
     border-width: 50%;
     background-color: #ADC9B2;
-    border-color: black;
-    color: black;
     position: relative;
     font-size: 18px;
     -webkit-border-radius: 0%;
@@ -90,6 +88,8 @@ input {
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
 }
+
+::placeholder { color: white;}
 
 label {
     border-color: black;
