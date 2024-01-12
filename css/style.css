@@ -20,7 +20,7 @@ header {
     padding: 14px;
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 .start {
@@ -34,12 +34,12 @@ h4 {
     text-align: center;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 130%;
+    font-size: 160%;
 }
 
 h3 {
     color: #110B0E;
-    font-size: 130%;
+    font-size: 160%;
     margin-left: 40px;
 }
 
@@ -80,14 +80,13 @@ form {
 }
 
 input {
-    border-radius: 0%;
-    padding: 7px;
+    padding: 9px;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 20px;
     border-width: 50%;
     background-color: #ADC9B2;
     position: relative;
-    font-size: 18px;
+    font-size: 160%;
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
@@ -96,9 +95,6 @@ input {
 
 ::placeholder { color: white;}
 
-label {
-    border-color: black;
-}
 
 textarea {
     background-color: #C0A5AB;
