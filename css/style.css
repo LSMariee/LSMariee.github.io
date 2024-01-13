@@ -226,5 +226,7 @@ input {
     display: block; 
     color:white; 
     text-align: center; 
-    padding: 15px; }
+    padding: 15px; 
+    background: #ADC9B2;
+}
 .topnav a:hover { background: #728f77; }
