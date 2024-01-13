@@ -224,7 +224,7 @@ li, a {
     background-color: #ADC9B2;
 }
 
-li ul a:hover {
+li a:hover {
     background-color: #7b9980;
 }
 
@@ -242,5 +242,5 @@ li ul a:hover {
     color:white; 
     text-align: center; 
     padding: 15px; }
-    
+
 .topnav a:hover { background: #ddd; color:black; }
