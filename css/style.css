@@ -205,7 +205,7 @@ input {
     to {opacity: 1}
 }
 
-a.socials { 
+.socials a { 
     color: #85A9AF;
 }
 
@@ -216,6 +216,8 @@ a.socials {
     display: block; 
     color:white; 
     text-align: center; 
-    padding: 15px; }
+    padding: 15px; 
+    background: #ADC9B2;
+}
 
 .topnav a:hover { background: #7b9980; }
