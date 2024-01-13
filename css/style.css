@@ -234,7 +234,7 @@ li a:hover {
     display: contents;
 }
 
-.topnav { overflow: hidden; background: #333; }
+.topnav { overflow: hidden; background: #ADC9B2; }
 
 .topnav a { 
     float: left; 
@@ -243,4 +243,4 @@ li a:hover {
     text-align: center; 
     padding: 15px; }
 
-.topnav a:hover { background: #ddd; color:black; }
+.topnav a:hover { background: #7b9980; }
