@@ -220,15 +220,12 @@ input {
     color: #85A9AF;
 }
 
-.topnav { overflow: hidden; background: #ADC9B2; }
 
+.topnav { overflow: hidden; background: #333; }
 .topnav a { 
     float: left; 
     display: block; 
     color:white; 
     text-align: center; 
-    padding: 15px; 
-    background: #ADC9B2;
-}
-
-.topnav a:hover { background: #7b9980; }
+    padding: 15px; }
+.topnav a:hover { background: #ddd; color:black; }
