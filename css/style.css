@@ -177,6 +177,7 @@ input {
   bottom: 8px;
   width: 100%;
   text-align: center;
+  background-color: transparent;
 }
 
 /* Number text (1/3 etc) */
@@ -186,6 +187,7 @@ input {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  background-color: transparent;
 }
 
 /* The dots/bullets/indicators */
@@ -228,5 +230,6 @@ input {
     text-align: center; 
     padding: 15px; 
     background: #ADC9B2;
+    text-decoration: none;
 }
 .topnav a:hover { background: #728f77; }
