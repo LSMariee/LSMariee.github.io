@@ -224,7 +224,7 @@ li, a {
     background-color: #ADC9B2;
 }
 
-li a:hover {
+li ul a:hover {
     background-color: #7b9980;
 }
 
