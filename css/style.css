@@ -70,6 +70,10 @@ table, td, th {
     text-align: center;
 }
 
+td p {
+    color: #110B0E;
+}
+
 tbody {
     color: #F3ECF3;
     font-size: 100%;
