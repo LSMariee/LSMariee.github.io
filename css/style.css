@@ -233,3 +233,14 @@ li ul a:hover {
     background-color: none;
     display: contents;
 }
+
+.topnav { overflow: hidden; background: #333; }
+
+.topnav a { 
+    float: left; 
+    display: block; 
+    color:white; 
+    text-align: center; 
+    padding: 15px; }
+    
+.topnav a:hover { background: #ddd; color:black; }
