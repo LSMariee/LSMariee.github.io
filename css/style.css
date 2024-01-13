@@ -56,7 +56,6 @@ h3 {
     color: #110B0E;
 }
 
-a { color: #85A9AF}
 
 ul { color: #85A9AF}
 
@@ -228,10 +227,8 @@ li a:hover {
     background-color: #7b9980;
 }
 
-.socials { 
+a.socials { 
     color: #85A9AF;
-    background-color: none;
-    display: contents;
 }
 
 .topnav { overflow: hidden; background: #ADC9B2; }
