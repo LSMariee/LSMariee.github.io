@@ -1,6 +1,5 @@
 * { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #FCFBFB;
-    box-sizing: border-box;
 }
 
 h1 { text-align: center;
@@ -221,11 +220,11 @@ input {
 }
 
 
-.topnav { overflow: hidden; background: #333; }
+.topnav { overflow: hidden; background: #ADC9B2; }
 .topnav a { 
     float: left; 
     display: block; 
     color:white; 
     text-align: center; 
     padding: 15px; }
-.topnav a:hover { background: #ddd; color:black; }
+.topnav a:hover { background: #728f77; }
