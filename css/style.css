@@ -51,6 +51,10 @@ h3 {
 
 .flex > h4 { flex: 1;}
 
+.flex2 {
+    margin-left: 50%;
+}
+
 #contact {
     color: #110B0E;
 }
