@@ -24,11 +24,6 @@ header {
     border-radius: 5px;
 }
 
-.start {
-    display: inline-block;
-
-}
-
 h4 {
     display:inline-block;
     padding: 20px;
@@ -51,12 +46,11 @@ h3 {
 
 .flex > h4 { flex: 1;}
 
-.flex2 {
-    margin-left: 30%;
-}
+
 
 #contact {
     color: #110B0E;
+    margin: 5%;
 }
 
 
@@ -75,6 +69,10 @@ table, td, th {
 
 td p {
     color: #110B0E;
+}
+
+td a {
+  color: #85A9AF;
 }
 
 tbody {
@@ -108,16 +106,19 @@ input {
 
 }
 
-#contact1 {
-    margin-left: 30%;
-    color: #110B0E;
-    
+.flex2 {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-#contact2 {
-    margin-left: 40%;
+
+
+.contact1 {
     color: #110B0E;
-    
+}
+
+.contact2 {
+    color: #110B0E;
 }
 
 #sbutton {
@@ -238,3 +239,8 @@ input {
     text-decoration: none;
 }
 .topnav a:hover { background: #728f77; }
+
+footer {
+  background-color: #9C6881;
+  width: 100%;
+}
