@@ -243,4 +243,7 @@ input {
 footer {
   background-color: #9C6881;
   width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 20px;
 }
