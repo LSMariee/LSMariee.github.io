@@ -242,4 +242,9 @@ input {
 
 footer {
   position: absolute;
+  bottom: 0;
+}
+
+body {
+  position: relative;
 }
