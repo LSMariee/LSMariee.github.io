@@ -239,11 +239,3 @@ input {
     text-decoration: none;
 }
 .topnav a:hover { background: #728f77; }
-
-footer {
-  bottom: 0;
-}
-
-body {
-  position: relative;
-}
